@@ -1,4 +1,4 @@
-Absolutely! Making your README more engaging with emojis is a great idea. Here's an updated version with a bit more flair:
+Welcome to the beginning of the journey to py_land. 
 
 ````markdown
 # 🐍 python_helloworld
