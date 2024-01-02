@@ -1,5 +1,5 @@
 
-🐍 python_helloworld
+🐍 **Python Hello World**
 
 🌟 Introduction
 
@@ -19,7 +19,6 @@ Welcome to `python_helloworld` – a simple Python project that sparks the magic
    ```bash
    git clone https://github.com/your-username/python_helloworld.git
    ```
-````
 
 2. Dive into the project directory:
 
