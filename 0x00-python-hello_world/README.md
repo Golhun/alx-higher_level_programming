@@ -1,19 +1,18 @@
 
-````markdown
-# 🐍 python_helloworld
+🐍 python_helloworld
 
-## 🌟 Introduction
+🌟 Introduction
 
 Welcome to `python_helloworld` – a simple Python project that sparks the magic of programming! 🚀 This project serves as a delightful introduction to the Python programming language. 🐘✨ It features a minimal "Hello, World!" example, providing a friendly foundation for beginners to embark on their Python journey.
 
-## 🚦 Getting Started
+🚦 Getting Started
 
-### 🛠️ Prerequisites
+🛠️ Prerequisites
 
 - Python 3 (version 3.8.5 or higher) 🐍
 - Your favorite text editor or integrated development environment (IDE) 💻
 
-### 🚀 Installation
+🚀 Installation
 
 1. Clone the repository to your local machine:
 
