@@ -1,4 +1,3 @@
-Welcome to the beginning of the journey to py_land. 
 
 ````markdown
 # 🐍 python_helloworld
