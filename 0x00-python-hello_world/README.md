@@ -40,16 +40,16 @@ Welcome to `python_helloworld` – a simple Python project that sparks the magic
    python3 main.py
    ```
 
-## 📁 Project Structure
+📁 Project Structure
 
 - `main.py`: The enchanted Python script featuring the timeless "Hello, World!" incantation.
 - `README.md`: The spellbook providing magical insights into the project.
 
-## ✨ Additional Details
+✨ Additional Details
 
 Feel free to sprinkle your creativity on `main.py` and explore more Python wonders. 🌈✨ Consider adding new spells or crafting modules as your Python mastery unfolds.
 
-## 🎩 Contributing
+🎩 Contributing
 
 Ready to join the magic circle? 🌟 Contribute to this enchanted realm:
 
@@ -67,13 +67,3 @@ Ready to join the magic circle? 🌟 Contribute to this enchanted realm:
    ```bash
    git push origin feature/your-feature-name
    ```
-5. Conjure a pull request to join the magical main repository.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). Use and share the magic responsibly! 🌟🔮
-
-```
-
-Feel free to further customize it based on your preferences and the tone you want for your project!
-```
