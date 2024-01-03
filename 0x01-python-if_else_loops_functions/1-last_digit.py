@@ -7,6 +7,7 @@ number = random.randint(-10000, 10000)
 
 sign = -1 if number < 0 else 1
 last_number = (number * sign) % 10
+last_number = last_number * sign
 message = ""
 
 
