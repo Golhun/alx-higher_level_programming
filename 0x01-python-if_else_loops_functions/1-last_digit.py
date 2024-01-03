@@ -5,7 +5,6 @@ import random
 number = random.randint(-10000, 10000)
 
 
-number = abs(number)
 last_number = number % 10
 message = ""
 
