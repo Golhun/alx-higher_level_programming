@@ -13,7 +13,6 @@ def islower(c):
         return False
 
 
-
 print("'' => {}".format("lower" if islower("") else "upper"))
 print("a => {}".format("lower" if islower("a") else "upper"))
 print("H => {}".format("lower" if islower("H") else "upper"))
