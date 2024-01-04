@@ -4,10 +4,10 @@
 def fizzbuzz():
     for number in range(1, 100 + 1):
         if number % 5 and number % 3 == 0:
-            print("FizzBuZZ", end=", ")
+            print("FizzBuZZ", end=" ")
         elif number % 3 == 0:
-            print("Fizz", end=", ")
+            print("Fizz", end=" ")
         elif number % 5 == 0:
-            print("Buzz", end=", ")
+            print("Buzz", end=" ")
         else:
-            print(number, end=", ")
+            print(number, end=" ")
