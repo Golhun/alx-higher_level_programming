@@ -1,0 +1,1 @@
+Enter the directory that seeks to plant the understanding of pyython modules and python command line arguements into you. Python command line arguments are set using argv which is gotten from the module sys or by using argparse which contain the class arguementparser. Learn with me. Happy coding. ~ Gerald
