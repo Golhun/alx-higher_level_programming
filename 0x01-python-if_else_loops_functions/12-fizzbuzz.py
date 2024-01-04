@@ -2,7 +2,7 @@
 
 
 def fizzbuzz():
-    for number in range(0, 100 + 1):
+    for number in range(1, 100 + 1):
         if number % 5 and number % 3 == 0:
             print("FizzBuZZ", end=", ")
         elif number % 3 == 0:
