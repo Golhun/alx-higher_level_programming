@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -z "$PYCODE" ] && echo "error: the variable is not set" && exit 1; python3 -c "$PYCODE"
+[ -z "$PYCODE" ] && echo "error: variable is not set" && exit 1; python3 -c "$PYCODE"
