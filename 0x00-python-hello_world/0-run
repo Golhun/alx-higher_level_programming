@@ -1,2 +1,2 @@
 #!/bin/bash
-[ -z "$PYFILE" ] || [ ! -f "$PYFILE" ] && { echo "error: variable is not set or file does not exist"; exit 1; } && python3 "$PYFILE"
+[ -z "$PYFILE" ] || [ ! -f "$PYFILE" ] && echo "error: the variable or file does not exist" && exist 1; python3 $PYFILE
