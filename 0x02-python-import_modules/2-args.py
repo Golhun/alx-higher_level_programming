@@ -2,7 +2,6 @@
 from sys import argv
 if __name__ == "__main__":
 
-
     arguments = argv[1:]
     count = 0
 
