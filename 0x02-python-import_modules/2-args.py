@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import sys
+from sys import argv
 
 
-arguments = sys.argv[1:]
+arguments = argv[1:]
 count = 0
 
 if len(arguments) == 0:
