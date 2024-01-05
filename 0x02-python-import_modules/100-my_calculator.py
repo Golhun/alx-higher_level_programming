@@ -10,9 +10,16 @@ def main():
         print("Usage: {} <a> <operator> <b>".format(sys.argv[0]))
         sys.exit(1)
 
-    a = int(arguments[1])
-    operator = arguments[2]
-    b = int(arguments[3])
+    a = arguments[0]
+    operator = arguments[1]
+    b = arguments[2]
+
+    try:
+        a = int(a)
+        b = int(b)
+    except ValueError:
+        print("Invalid input. <a> and <b> must be integers.")
+        sys.exit(1)
 
     if operator == '+':
         result = add(a, b)
