@@ -9,3 +9,7 @@ def no_c(my_string):
         ]
     string = "".join(my_string)
     return string
+
+
+if __name__ == "__main__":
+    no_c()
