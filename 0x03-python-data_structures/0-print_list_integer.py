@@ -2,7 +2,7 @@
 
 def print_list_integer(my_list=[]):
     for item in my_list:
-        print(f"{item}")
+        print("{:d}".format(item))
 
 
 if __name__ == "__main__":
