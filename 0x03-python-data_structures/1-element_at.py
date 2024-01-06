@@ -9,3 +9,7 @@ def element_at(my_list, idx):
         for element in my_list:
             if element == idx:
                 return element
+
+
+if __name__ == "__main__":
+    element_at()
