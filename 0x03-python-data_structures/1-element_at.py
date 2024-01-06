@@ -6,9 +6,7 @@ def element_at(my_list, idx):
     elif idx > (len(my_list) - 1):
         return None
     elif idx > 0 and idx <= (len(my_list) - 1):
-        for element in my_list:
-            if element == idx:
-                return element
+        return my_list[idx]
 
 
 if __name__ == "__main__":
