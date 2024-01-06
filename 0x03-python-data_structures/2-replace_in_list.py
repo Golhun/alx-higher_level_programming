@@ -8,6 +8,7 @@ def replace_in_list(my_list, idx, element):
         return my_list
     elif idx > 0 and idx <= (len(my_list)):
         my_list[idx] = element
+        return my_list
 
 
 if __name__ == "__main__":
