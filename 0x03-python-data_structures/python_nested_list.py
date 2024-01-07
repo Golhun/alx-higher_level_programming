@@ -63,5 +63,15 @@ my_list = [3.5, 10, "code", [1, 2, 3], 8]
 # How to initialise a nested list
 # 1. Using python's range() function
 
-my_list = [[] for i in range(5)]
+# my_list = [[] for i in range(5)]
+# print("{}".format(my_list)) # This line creates a nested with 5 nested lists all having different ids
+
+
+# Using a for loop
+# first create an empty list
+my_list = []
+
+for i in range(4):
+    my_list.append([])
+
 print("{}".format(my_list))
