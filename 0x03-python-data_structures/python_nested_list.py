@@ -25,6 +25,11 @@ my_list = [3.5, 10, "code", [1, 2, 3], 8]
 # print("{}".format(my_list))
 
 # reverse the order of a list
-print("{}: {}\n".format("Original list", my_list))
-my_list.reverse()
-print("{}: {}".format("Reversed list", my_list))
+# print("{}: {}\n".format("Original list", my_list))
+# my_list.reverse()
+# print("{}: {}".format("Reversed list", my_list))
+
+# count the number of times a specified element appears in a list
+my_list = [2, 4, 56, 56, 45, 32, 2]
+appearance = my_list.count(56)
+print("{} {} {}".format("the element appeared", appearance, "times"))
