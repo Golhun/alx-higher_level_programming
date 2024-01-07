@@ -45,3 +45,16 @@ my_list = [3.5, 10, "code", [1, 2, 3], 8]
 # print("{}".format(bacteriology_RAs))
 
 # AND THAT WOULD BE ALL FOR NOW
+
+
+
+# A LIST WITHIN A LIST
+# Python nested lists
+
+# example of a nested list
+my_list = [[22, 14, 16], ["Joe", "Sam", "Abel"], [True, False, True]]
+
+print("{}".format(my_list[0])) # prints a sublist
+print("{}".format(my_list[0][0])) # prints an element within a sub-list
+my_list[0][0] = 20 # modifies an element within a sub-list
+print("{}".format(my_list))
