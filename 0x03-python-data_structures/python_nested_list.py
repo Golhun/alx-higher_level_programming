@@ -69,9 +69,9 @@ my_list = [3.5, 10, "code", [1, 2, 3], 8]
 
 # Using a for loop
 # first create an empty list
-my_list = []
+# my_list = []
 
-for i in range(4):
-    my_list.append([])
+# for i in range(4):
+#     my_list.append([])
 
-print("{}".format(my_list))
+# print("{}".format(my_list))
