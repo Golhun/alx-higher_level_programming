@@ -39,7 +39,9 @@ my_list = [3.5, 10, "code", [1, 2, 3], 8]
 # print("{}".format(first_occurrence))
 
 # extend a list by appending a list from another iterable
-bacteriology_RAs = ["Basit", "Amanda", "Ishaq"]
-bacteriology_PIs = ["Prof. Dorothy", "Dr. Asante-Poku", "Dr. Asare"]
-bacteriology_RAs.append(bacteriology_PIs)
-print("{}".format(bacteriology_RAs))
+# bacteriology_RAs = ["Basit", "Amanda", "Ishaq"]
+# bacteriology_PIs = ["Prof. Dorothy", "Dr. Asante-Poku", "Dr. Asare"]
+# bacteriology_RAs.append(bacteriology_PIs)
+# print("{}".format(bacteriology_RAs))
+
+# AND THAT WOULD BE ALL FOR NOW
