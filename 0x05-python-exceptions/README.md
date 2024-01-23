@@ -2,7 +2,7 @@
 
 ## Overview
 
-This folder contains resources and examples related to Python exception handling. Exception handling is a crucial aspect of writing robust and reliable Python code. It allows developers to gracefully manage unexpected situations and errors that may occur during the execution of a program.
+This directory contains resources and examples related to Python exception handling. Exception handling is a crucial aspect of writing robust and reliable Python code. It allows developers to gracefully manage unexpected situations and errors that may occur during the execution of a program.
 
 ## Contents
 
@@ -40,4 +40,3 @@ Feel free to explore and modify the code to understand how Python exception hand
 If you find any issues, have suggestions, or want to contribute to this repository, please feel free to submit a pull request or open an issue. Your contributions are welcome!
 
 Happy coding! 🐍✨
-~ Gerald
