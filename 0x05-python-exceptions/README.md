@@ -40,3 +40,4 @@ Feel free to explore and modify the code to understand how Python exception hand
 If you find any issues, have suggestions, or want to contribute to this repository, please feel free to submit a pull request or open an issue. Your contributions are welcome!
 
 Happy coding! 🐍✨
+~ Gerald
