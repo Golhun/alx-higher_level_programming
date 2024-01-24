@@ -35,3 +35,5 @@ Delve into the dynamic world of attribute handling. Learn how to dynamically cre
 Uncover the secrets of how Python discovers attributes within objects and classes. Arm yourself with the knowledge of `getattr` and wield it like a master craftsman to manipulate attributes with finesse.
 
 Are you ready to become a Pythonic sorcerer, weaving spells with objects and classes? Join us on this epic journey through the realms of OOP, where every line of code is a step towards mastery. The Pythonic Odyssey awaits – adventure, discovery, and the joy of coding await you! 🚀🐍
+
+Happy coding
