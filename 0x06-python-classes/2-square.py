@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A python module with a class square"""
+"""A python module which creates a square class"""
 
 
 class Square():
@@ -11,3 +11,4 @@ class Square():
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
+        self.size = size
