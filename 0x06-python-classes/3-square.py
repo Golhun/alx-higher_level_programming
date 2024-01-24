@@ -9,3 +9,9 @@ class Square():
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
+        self.__size = size
+
+    def area(self):
+        """A public method that calculates for the area of the square"""
+        area = self.size ** 2
+        return area
