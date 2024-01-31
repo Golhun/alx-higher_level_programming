@@ -1,0 +1,39 @@
+ """
+    Examples:
+    >>> text_indentation = __import__('5-text_indentation').text_indentation
+    >>> text_indentation("Hello. How are you?")
+    Hello.$
+    $
+     How are you?$
+    $
+    <BLANKLINE>
+
+    >>> text_indentation("The, quick, brown: fox? jumped over: the box. ")
+    The, quick, brown:$
+    $
+     fox?$
+    $
+     jumped over:$
+    $
+     the box.$
+    $
+    <BLANKLINE>
+
+    >>> text_indentation("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.$
+    $
+    <BLANKLINE>
+
+    >>> text_indentation("NoNewlinesHere")
+    NoNewlinesHere
+
+    >>> text_indentation("")  # Empty string
+    <BLANKLINE>
+
+    >>> try:
+    ...     text_indentation(123)  # Non-string input
+    ... except TypeError as e:
+    ...     str(e)
+    'text must be a string'
+
+    """
