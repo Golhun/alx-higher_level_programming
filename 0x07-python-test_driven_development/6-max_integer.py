@@ -16,3 +16,9 @@ def max_integer(list=[]):
             result = list[i]
         i += 1
     return result
+
+
+# if __name__ == "__main__":
+#     ques = [10, 12, 34, 56]
+#     ans = max_integer(list=ques)
+#     print(f"Maximum integer is:\n {ans}")

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-A module that addds two integers
+A module that adds two integers and returns the answer
 """
 
 
