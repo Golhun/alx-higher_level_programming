@@ -23,8 +23,8 @@ def text_indentation(text):
     
     for char in text:
         if char in chars:
-            final_text += f"{char}$\n$\n"
+            final_text += f"{char}\n\n"
         else:
             final_text += char
-    
+
     print(final_text)
