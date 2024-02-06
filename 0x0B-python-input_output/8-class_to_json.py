@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+A module that creates a dict of serializable objects from class attributes
+"""
+
+
 def class_to_json(obj):
     """
     Returns dict desc with simple data struct
