@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+A module that writes to a text file
+"""
+
+
 def write_file(filename="", text=""):
     """
     Function writes in txt format, returns number of chars written.
