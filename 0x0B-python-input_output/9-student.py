@@ -3,6 +3,7 @@
 A module that defines a student class
 """
 
+
 class Student:
     """
     Defines a student with first name, last name, and age.
@@ -27,7 +28,7 @@ class Student:
         Retrieves a dictionary representation of a Student instance.
 
         Returns:
-            dict: A dictionary containing the attributes of the Student instance.
+            dict: A dict containing the attrs of the Student instance.
         """
 
         result = {}
