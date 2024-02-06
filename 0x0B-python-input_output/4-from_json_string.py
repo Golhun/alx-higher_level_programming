@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+A module that returns an python object represented by a JSON string
+"""
+
+
 import json
 
 
