@@ -47,14 +47,17 @@ def list_states(username, password, database):
 
     finally:
         # Close cursor and connection
-        if 'cursor' in locals() and cursor is not None:
+        try:
             cursor.close()
-        if 'db' in locals() and db is not None:
+        except NameError:
+            pass
+        try:
             db.close()
+        except NameError:
+            pass
 
 
 if __name__ == '__main__':
-
     if len(sys.argv) != 4:
         print("Usage: {} <username> <password> <database>".format(sys.argv[0]))
         sys.exit(1)
