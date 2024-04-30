@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 import urllib.request
 import sys
+"""
+A script that
+- fetches https://alx-intranet.hbtn.io/status.
+- uses urlib package
+"""
+
 
 if __name__ == "__main__":
     url = 'https://alx-intranet.hbtn.io/status'
