@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-"""
-This script fetches the status of https://intranet.hbtn.io/status using the requests library.
-"""
+"""This is a script to fetch from a URL using request"""
+
 
 import requests
 
-if __name__ == "__main__":
-    # Send a GET request to fetch the status
-    response = requests.get("https://intranet.hbtn.io/status")
-
-    # Print information about the response
-    print("Response Body:")
-    print("\t- Response Type: {}".format(type(response.text)))
-    print("\t- Response Content: {}".format(response.text))
+if __name__ == '__main__':
+    res = requests.get('https://alx-intranet.hbtn.io/status')
+    print("Body response:")
+    print("\t- type: {}".format(type(res.text)))
+    print("\t- content: {}".format(res.text))
