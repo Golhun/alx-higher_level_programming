@@ -1,21 +1,32 @@
 #!/usr/bin/python3
-import urllib.request
-import sys
-"""
-A script that
-- fetches https://alx-intranet.hbtn.io/status.
-- uses urlib package
-"""
+"""Fetches data from a URL using urllib."""
 
+import urllib.request
+
+def fetch_url_data(url):
+    """
+    Fetches data from the specified URL.
+
+    Args:
+    - url (str): The URL to fetch data from.
+
+    Returns:
+    - str: The fetched data.
+    """
+    with urllib.request.urlopen(url) as response:
+        data = response.read()
+    return data
+
+def main():
+    """Main function to run the script."""
+    url = 'https://alx-intranet.hbtn.io/status'
+    data = fetch_url_data(url)
+
+    # Print fetched data
+    print("Body response:")
+    print("\t- type: {}".format(type(data)))
+    print("\t- content: {}".format(data))
+    print("\t- utf8 content: {}".format(data.decode('utf-8')))
 
 if __name__ == "__main__":
-    url = 'https://alx-intranet.hbtn.io/status'
-    try:
-        with urllib.request.urlopen(url) as response:
-            data = response.read()
-            print("Body response:")
-            print("\t- type:", type(data))
-            print("\t- content:", data)
-            print("\t- utf8 content:", data.decode('utf-8'))
-    except Exception as e:
-        print(f"Error fetching URL: {e}", file=sys.stderr)
+    main()
