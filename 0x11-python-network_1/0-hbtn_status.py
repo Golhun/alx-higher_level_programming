@@ -3,6 +3,7 @@
 
 import urllib.request
 
+
 def fetch_url_data(url):
     """
     Fetches data from the specified URL.
@@ -17,6 +18,7 @@ def fetch_url_data(url):
         data = response.read()
     return data
 
+
 def main():
     """Main function to run the script."""
     url = 'https://alx-intranet.hbtn.io/status'
@@ -27,6 +29,7 @@ def main():
     print("\t- type: {}".format(type(data)))
     print("\t- content: {}".format(data))
     print("\t- utf8 content: {}".format(data.decode('utf-8')))
+
 
 if __name__ == "__main__":
     main()
