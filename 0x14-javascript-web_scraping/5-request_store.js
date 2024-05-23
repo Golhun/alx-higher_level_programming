@@ -1,6 +1,6 @@
 #!/usr/bin/node
-const request = require("request");
-const fs = require("fs");
+const request = require('request');
+const fs = require('fs');
 
 // Get URL and file path from command line
 const url = process.argv[2];
